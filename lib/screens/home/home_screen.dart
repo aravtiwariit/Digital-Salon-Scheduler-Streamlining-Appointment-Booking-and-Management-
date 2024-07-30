@@ -67,7 +67,6 @@ class HomeScreen extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const SearchBar()
                         ],
                       ),
                     ),
@@ -191,7 +190,8 @@ class HomeScreen extends StatelessWidget {
                                       height: 22,
                                       child: Text(
                                         snapshot.data?.docs[index]["name"],
-                                        style: const TextStyle(color: Colors.white),
+                                        style: const TextStyle(
+                                            color: Colors.white),
                                         textAlign: TextAlign.center,
                                       ),
                                     )),
